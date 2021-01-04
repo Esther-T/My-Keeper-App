@@ -1,11 +1,12 @@
 import React from "react";
 import ReactDom from "react-dom";
 
-const name = "Esther";
+const fName = "Esther";
+const lName = "T";
 
 ReactDom.render(
   <div>
-    <h1>Hello {name} :)</h1>
+    <h1>Hello {`${fName} ${lName}`} :)</h1>
     <h2>My favorite classic songs</h2>
     <ul>
       <li>Don't Stop Me Now</li>
