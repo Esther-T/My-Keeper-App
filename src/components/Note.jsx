@@ -1,7 +1,12 @@
 import React from "react";
 
 function Note() {
-  return <h1>My Keeper</h1>;
+  return (
+    <div>
+      <h1>Title</h1>
+      <p>Content</p>
+    </div>
+  );
 }
 
 export default Note;
