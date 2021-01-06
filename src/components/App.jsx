@@ -1,12 +1,12 @@
 import React from "react";
 import Heading from "./Heading.jsx";
-import Body from "./body.jsx";
+import Footer from "./Footer.jsx";
 
 function App() {
   return (
     <div>
       <Heading />
-      <Body />
+      <Footer />
     </div>
   );
 }
