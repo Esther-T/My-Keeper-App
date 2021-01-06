@@ -1,5 +1,5 @@
 import React from "react";
-
+import * as constants from "../constants.js";
 const img = "https://picsum.photos/200";
 
 function Body() {
@@ -21,6 +21,10 @@ function Body() {
         alt="noodles"
         src="https://www.errenskitchen.com/wp-content/uploads/2014/04/quick-and-easy-chinese-noodle-soup3-1.jpg"
       />
+      <ul>
+        <li>{constants.default}</li>
+        <li>{constants.generateRandomNumber()}</li>
+      </ul>
     </div>
   );
 }
