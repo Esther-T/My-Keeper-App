@@ -11,7 +11,10 @@ function App() {
   return (
     <div>
       <Heading />
-      {notes.map(createNote)};
+      {notes.map((note) => {
+        return <Note key={note.id} title={note.title} content={note.content} />;
+      })}
+      ;
       <Footer />
     </div>
   );
