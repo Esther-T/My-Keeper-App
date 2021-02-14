@@ -4,7 +4,7 @@ const currYear = new Date().getFullYear();
 function Footer() {
   return (
     <footer>
-      <p>Copyright ⓒ {currYear} Esther T</p>
+      <p>Copyright ⓒ {currYear} Esther Tan</p>
     </footer>
   );
 }
